@@ -11,12 +11,12 @@
 
          - name: Create a directory
            file:
-                path: "/home/osboxes/xyz"
+                path: "/home/osboxes/Sravani_directory"
                 state: directory
            ignore_errors: true
            
          - name: Deploy greeting
            copy:
-                dest: "/home/osboxes/xyz/"
+                dest: "/home/osboxes/Sravani_directory/"
                 content: "{{ greeting }}"
                 
