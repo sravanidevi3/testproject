@@ -11,11 +11,11 @@
 
          - name: Create a directory
            file:
-                path: "etc/ansible"
+                path: "/home/osboxes/xyz"
                 state: directory
 
          - name: Deploy greeting
            copy:
-                dest: "etc/ansible"
+                dest: "/home/osboxes/xyz"
                 content: "{{ greeting }}"
       
