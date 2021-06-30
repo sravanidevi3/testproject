@@ -18,4 +18,5 @@
            copy:
                 dest: "/home/osboxes/xyz"
                 content: "{{ greeting }}"
+                changed: false
       
