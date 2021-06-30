@@ -16,6 +16,6 @@
 
          - name: Deploy greeting
            copy:
-                path: "etc/ansible"
+                dest: "etc/ansible"
                 content: "{{ greeting }}"
       
