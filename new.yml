@@ -16,7 +16,6 @@
 
          - name: Deploy greeting
            copy:
-                dest: "/home/osboxes/xyz"
+                dest: "/home/osboxes/xyz/"
                 content: "{{ greeting }}"
-                changed: false
-      
+                
