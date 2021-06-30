@@ -17,6 +17,6 @@
            
          - name: Deploy greeting
            copy:
-                dest: "/home/osboxes/Sravani_directory/"
+                dest: "/home/osboxes/Sravani_directory/Bala.txt"
                 content: "{{ greeting }}"
                 
