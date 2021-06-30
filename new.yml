@@ -2,7 +2,7 @@
    -
      name: Example playbook
      hosts: all
-     become: true
+     remote_user: root
 
      vars: 
          greeting: Hello World
